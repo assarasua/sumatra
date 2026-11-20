@@ -6,3 +6,6 @@ node_modules/
 .dev.vars*
 !.env.example
 outputs/
+
+public/site.*.js
+lib/client-asset.js

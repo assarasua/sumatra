@@ -1,1 +1,25 @@
-{"name":"explore-sumatra-nextjs","private":true,"type":"module","scripts":{"dev":"next dev","build":"next build","build:cloudflare":"opennextjs-cloudflare build","preview":"opennextjs-cloudflare preview","deploy":"opennextjs-cloudflare deploy","test":"node --test lib/payment.test.js"},"dependencies":{"next":"16.4.6","react":"latest","react-dom":"latest","stripe":"latest"},"devDependencies":{"@opennextjs/cloudflare":"1.20.18","wrangler":"latest"}}
+{
+  "name": "explore-sumatra-nextjs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "node scripts/build-client.mjs && next build",
+    "build:cloudflare": "opennextjs-cloudflare build",
+    "preview": "opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare deploy",
+    "test": "node --test lib/payment.test.js",
+    "predev": "node scripts/build-client.mjs"
+  },
+  "dependencies": {
+    "next": "16.4.6",
+    "react": "latest",
+    "react-dom": "latest",
+    "stripe": "latest"
+  },
+  "devDependencies": {
+    "@opennextjs/cloudflare": "1.20.18",
+    "wrangler": "latest",
+    "esbuild": "^0.25.0"
+  }
+}

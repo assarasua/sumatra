@@ -2,7 +2,7 @@
 
 Next.js website on Cloudflare Workers, built with OpenNext. Production: https://www.exploresumatraescape.com
 
-The homepage, five booking pages and 15 journal articles are prerendered. Photos are optimized WebP and fonts are self-hosted. Stripe Checkout handles card information; bookings and verified webhook events are stored in Cloudflare D1.
+The homepage, five booking pages and 15 journal articles in seven languages are prerendered. Photos are optimized WebP and fonts are self-hosted. Stripe Checkout handles card information; bookings and verified webhook events are stored in Cloudflare D1.
 
 ## Develop and deploy
 

@@ -1,0 +1,2 @@
+import fs from 'node:fs';import crypto from 'node:crypto';import {transform} from 'esbuild';
+const source=fs.readFileSync('scripts/site.js','utf8');const {code}=await transform(source,{minify:true,target:'es2022'});const name='site.'+crypto.createHash('sha256').update(code).digest('hex').slice(0,12)+'.js';for(const file of fs.readdirSync('public'))if(/^site\.[a-f0-9]+\.js$/.test(file))fs.unlinkSync('public/'+file);fs.writeFileSync('public/'+name,code);fs.writeFileSync('lib/client-asset.js','export default '+JSON.stringify('/'+name)+';\n');
