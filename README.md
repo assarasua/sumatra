@@ -6,6 +6,8 @@ The homepage, five booking pages and 15 journal articles in seven languages are 
 
 Five indexable tour pages, public AI reading files, MCP Streamable HTTP, an A2A 1.0 Agent Card, and Personal Agent Protocol 1.0 discovery expose the offered tours and booking policies. See `/agents`, `/mcp`, `/.well-known/agent-card.json`, `/.well-known/poppy.json`, `/openapi.json`, `/llms.txt`, and `/llms-full.txt`.
 
+Company structured data uses a shared organization ID across the homepage, tour providers and article publishers. Public crawling is allowed in `app/robots.js`; the existing training-crawler directives are preserved in `lib/training-crawlers.json`. In Cloudflare, allow Search and Agents and disable Bot Preference Sync: its broad training rule incorrectly blocked PerplexityBot despite listing it as AI Search. The repository now owns the robots directives. Robots preferences are voluntary; the site's authentication, checkout validation, rate limits and Cloudflare security protections still govern requests.
+
 ## Develop and deploy
 
 Node.js 22 or newer:
