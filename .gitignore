@@ -9,3 +9,4 @@ outputs/
 
 public/site.*.js
 lib/client-asset.js
+.poppy/

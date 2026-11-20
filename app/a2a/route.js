@@ -1,0 +1,1 @@
+import {getCloudflareContext} from '@opennextjs/cloudflare';import {handleA2a} from '../../lib/a2a-server.js';export const dynamic='force-dynamic';export async function POST(request){const {env}=await getCloudflareContext({async:true});return handleA2a(request,env);}

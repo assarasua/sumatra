@@ -1,0 +1,1 @@
+import {getCloudflareContext} from '@opennextjs/cloudflare';import {handleMcp} from '../../lib/mcp-server.js';export const dynamic='force-dynamic';async function handle(request){const {env}=await getCloudflareContext({async:true});return handleMcp(request,env);}export const POST=handle;export const GET=handle;export const DELETE=handle;

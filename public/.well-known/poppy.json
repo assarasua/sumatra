@@ -1,0 +1,30 @@
+{
+  "protocol_version": "1.0",
+  "organization": {
+    "name": "Explore Sumatra Escape",
+    "domain": "www.exploresumatraescape.com",
+    "logo_uri": "https://www.exploresumatraescape.com/assets/logo.png"
+  },
+  "apis": [
+    {
+      "type": "mcp",
+      "url": "https://www.exploresumatraescape.com/mcp",
+      "description": "Public tour search, group quotes, travel guides, WhatsApp links and customer-consented Stripe test checkout links. No account or Session state."
+    },
+    {
+      "type": "openapi",
+      "url": "https://www.exploresumatraescape.com/openapi.json",
+      "description": "Guest tour-planning actions with no account access."
+    }
+  ],
+  "agent": {
+    "protocols": [
+      {
+        "type": "a2a",
+        "endpoint": "https://www.exploresumatraescape.com/a2a",
+        "description": "A2A 1.0 JSON-RPC tour planning agent. See /.well-known/agent-card.json."
+      }
+    ]
+  },
+  "web": {}
+}

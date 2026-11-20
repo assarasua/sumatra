@@ -1,0 +1,226 @@
+# Explore Sumatra Escape
+
+> Local-guided Bukit Lawang jungle treks and custom Sumatra journeys.
+
+Five offered tours, 1–5 days. Two days / one night costs €120 per person. Three-day rates depend on group size; four- and five-day tours require at least two people. Custom journeys beyond the jungle have no fixed price.
+
+## Tours
+- [1-Day Sumatran Orangutan Jungle Trekking](https://www.exploresumatraescape.com/tours/bl-01d): itinerary, inclusions, packing and authoritative group rates.
+- [2 Days 1 Night Jungle Trekking](https://www.exploresumatraescape.com/tours/bl-02d): itinerary, inclusions, packing and authoritative group rates.
+- [3-Day Forest Immersion](https://www.exploresumatraescape.com/tours/bl-03d): itinerary, inclusions, packing and authoritative group rates.
+- [4 Days 3 Nights Jungle Trekking](https://www.exploresumatraescape.com/tours/bl-04d): itinerary, inclusions, packing and authoritative group rates.
+- [5 Days 4 Nights Jungle Trekking](https://www.exploresumatraescape.com/tours/bl-05d): itinerary, inclusions, packing and authoritative group rates.
+
+## Travel knowledge
+- [Sumatra journal](https://www.exploresumatraescape.com/blog): 15 articles in English, Spanish, German, French, Italian, Dutch and Portuguese.
+- [Complete tour information](https://www.exploresumatraescape.com/llms-full.txt)
+
+## Agent interfaces
+- [Agent access instructions](https://www.exploresumatraescape.com/agents)
+- [MCP Streamable HTTP](https://www.exploresumatraescape.com/mcp)
+- [A2A Agent Card](https://www.exploresumatraescape.com/.well-known/agent-card.json): A2A 1.0 JSON-RPC.
+- [Personal Agent Protocol / Poppy](https://www.exploresumatraescape.com/.well-known/poppy.json): public guest API discovery.
+- [OpenAPI](https://www.exploresumatraescape.com/openapi.json)
+- [Machine-readable catalogue](https://www.exploresumatraescape.com/agent-catalog.json)
+
+## Booking and contact
+Ask the customer for explicit consent before sharing booking details to create a checkout link. Customers complete payment themselves at Stripe. Payments are currently TEST ONLY. Preferred dates require team confirmation. No automatic payment, messages, invoices or private booking lookup through agents.
+WhatsApp: +34 615 788 239 (https://wa.me/34615788239).
+
+# 1-Day Sumatran Orangutan Jungle Trekking (BL-01D)
+https://www.exploresumatraescape.com/tours/bl-01d
+
+09:00 AM - Meeting Point & Introduction
+Meet your local jungle guide in Bukit Lawang. Receive a short introduction, safety briefing and information about the rainforest before starting your adventure.
+09:30 AM - Start Jungle Trekking
+Enter the tropical rainforest of Gunung Leuser National Park. Explore beautiful jungle trails while looking for wild Sumatran orangutans, Thomas leaf monkeys, gibbons, macaques and tropical birds.
+11:00 AM - Wildlife Observation
+Enjoy opportunities to observe wild animals in their natural environment. Your guide will share interesting information about orangutan behaviour, rainforest plants and local wildlife.
+12:30 PM - Jungle Lunch Break
+Take a relaxing break and enjoy a freshly prepared local lunch with tropical fruits surrounded by the beautiful rainforest.
+01:30 PM - Continue Exploring the Rainforest
+Continue your jungle adventure and discover more of the incredible biodiversity of Sumatra. Enjoy the peaceful atmosphere and learn about the importance of rainforest conservation.
+03:00 PM - Return Journey
+Start trekking back towards Bukit Lawang. Depending on weather and river conditions, you can also enjoy an optional traditional river tubing experience.
+04:00 PM - End of the Adventure
+Arrive back in Bukit Lawang with unforgettable memories of your Sumatran jungle experience.
+
+Included: Experienced local English-speaking jungle guide; Guided jungle trekking; Lunch during the trek; Fresh tropical fruits; Drinking water; Applicable national park and local fees (subject to confirmation)
+Excluded: Hotel accommodation; Transport to and from Bukit Lawang; Personal expenses; Optional river tubing; Guide tips
+Packing: Comfortable trekking shoes; Lightweight clothing; Small backpack; Insect repellent; Sunscreen; Camera; Rain jacket; Reusable water bottle
+Important: River tubing is optional, costs extra, and depends on weather and river conditions.; National park and local fee inclusion is subject to confirmation.; Wildlife sightings cannot be guaranteed. Observe animals from a safe distance without feeding, touching, chasing or disturbing them.
+Group rates EUR: [{"travellers":1,"per_person_eur":70,"total_eur":70},{"travellers":2,"per_person_eur":70,"total_eur":140},{"travellers":3,"per_person_eur":70,"total_eur":210},{"travellers":4,"per_person_eur":70,"total_eur":280},{"travellers":5,"per_person_eur":70,"total_eur":350},{"travellers":6,"per_person_eur":70,"total_eur":420},{"travellers":7,"per_person_eur":70,"total_eur":490},{"travellers":8,"per_person_eur":70,"total_eur":560}]
+Guide: https://www.exploresumatraescape.com/guides/bl-01d.pdf
+
+# 2 Days 1 Night Jungle Trekking (BL-02D)
+https://www.exploresumatraescape.com/tours/bl-02d
+
+DAY 1 - INTO THE RAINFOREST
+09:00 AM - Meeting Point & Preparation
+Meet your local jungle guide in Bukit Lawang. Before starting the adventure, your guide will explain the trekking route, safety guidelines, and responsible wildlife-watching practices.
+09:30 AM - Start Jungle Trekking
+Enter Gunung Leuser National Park and begin exploring the tropical rainforest. During the trek, you may have the opportunity to see:
+- Wild Sumatran orangutans
+- Thomas leaf monkeys
+- Long-tailed macaques
+- Gibbons
+- Hornbills and other tropical birds
+- Beautiful rainforest plants and trees
+Wildlife sightings cannot be guaranteed, as animals live freely in their natural habitat.
+12:30 PM - Lunch in the Jungle
+Enjoy a freshly prepared lunch surrounded by the beautiful sounds of the rainforest.
+01:30 PM - Continue Exploring
+Continue trekking deeper into the rainforest while discovering more wildlife, tropical plants, and the fascinating ecosystem of Gunung Leuser National Park.
+04:00 PM - Arrive at Jungle Campsite
+Arrive at your riverside jungle campsite. Relax, enjoy the natural surroundings, and spend time with your guide.
+07:00 PM - Dinner & Overnight Stay
+Enjoy dinner at the campsite and experience a peaceful night in the rainforest, surrounded by the sounds of nature.
+DAY 2 - RAINFOREST ADVENTURE & RIVER RETURN
+07:00 AM - Breakfast in the Jungle
+Wake up to the sounds of the rainforest and enjoy breakfast at the campsite.
+08:00 AM - Morning Jungle Exploration
+Continue exploring the rainforest with your guide. Look for more wildlife, enjoy the fresh jungle atmosphere, and discover the incredible biodiversity of Sumatra.
+11:00 AM - Return Towards the River
+Begin trekking back towards the river while enjoying the last moments of your rainforest adventure.
+12:00 PM - Traditional Jungle River Tubing
+Enjoy an exciting traditional river tubing experience back to Bukit Lawang, surrounded by beautiful rainforest scenery.
+01:00 PM - Arrive in Bukit Lawang
+Your two-day jungle adventure comes to an end. Return to your accommodation with unforgettable memories of Sumatra.
+
+Included: Experienced local English-speaking jungle guide; National park entrance fee; One night jungle campsite accommodation; Meals during the trek; Drinking water; Traditional river tubing back to Bukit Lawang; Basic camping equipment
+Excluded: Confirm any services outside the listed inclusions with the team.
+Packing: Comfortable trekking shoes; Lightweight clothes; Extra clothes; Small backpack; Insect repellent; Sunscreen; Personal toiletries; Camera or phone; Reusable water bottle
+Important: Suitable for adventurous beginners with reasonable fitness.; The trekking route and wildlife encounters depend on weather, trail conditions and animal movements.; Wildlife sightings cannot be guaranteed. Observe animals from a safe distance without feeding, touching, chasing or disturbing them.
+Group rates EUR: [{"travellers":1,"per_person_eur":120,"total_eur":120},{"travellers":2,"per_person_eur":120,"total_eur":240},{"travellers":3,"per_person_eur":120,"total_eur":360},{"travellers":4,"per_person_eur":120,"total_eur":480},{"travellers":5,"per_person_eur":120,"total_eur":600},{"travellers":6,"per_person_eur":120,"total_eur":720},{"travellers":7,"per_person_eur":120,"total_eur":840},{"travellers":8,"per_person_eur":120,"total_eur":960}]
+Guide: https://www.exploresumatraescape.com/guides/bl-02d.pdf
+
+# 3-Day Forest Immersion (BL-03D)
+https://www.exploresumatraescape.com/tours/bl-03d
+
+Day 1 - Enter the Rainforest
+- 09:00 AM - Meet your local guide in Bukit Lawang.
+- 09:30 AM - Begin your jungle trekking adventure.
+- Explore the rainforest and look for wild orangutans, monkeys, gibbons, and tropical birds.
+- 12:30 PM - Enjoy lunch in the jungle.
+- Continue exploring the rainforest.
+- 04:00 PM - Arrive at the first jungle campsite.
+- Evening - Dinner and overnight camping.
+Day 2 - Deep Forest Immersion
+- 07:00 AM - Breakfast surrounded by nature.
+- 08:00 AM - Continue trekking deeper into the rainforest.
+- Discover tropical plants and observe wildlife in their natural habitat.
+- 12:00 PM - Lunch in the jungle.
+- Afternoon - Explore more of the rainforest and enjoy the peaceful jungle atmosphere.
+- 04:00 PM - Arrive at the second campsite.
+- Evening - Dinner and the second night in the jungle.
+Day 3 - Jungle Return Adventure
+- 07:00 AM - Breakfast at the campsite.
+- 08:00 AM - Enjoy a final morning exploring the rainforest.
+- 10:30 AM - Begin the return journey.
+- 12:00 PM - Experience traditional jungle river tubing.
+- 01:00 PM - Arrive back in Bukit Lawang.
+
+Included: Experienced local English-speaking jungle guide; National park entrance fee; 2 nights jungle camping; Meals and drinking water; Fresh tropical fruit; Camping equipment; Traditional river tubing
+Excluded: Confirm any services outside the listed inclusions with the team.
+Packing: Comfortable trekking shoes; Extra clothes; Small backpack; Insect repellent; Sunscreen; Personal toiletries; Camera
+Important: Wildlife sightings cannot be guaranteed. Observe animals from a safe distance without feeding, touching, chasing or disturbing them.
+Group rates EUR: [{"travellers":1,"per_person_eur":250,"total_eur":250},{"travellers":2,"per_person_eur":180,"total_eur":360},{"travellers":3,"per_person_eur":160,"total_eur":480},{"travellers":4,"per_person_eur":160,"total_eur":640},{"travellers":5,"per_person_eur":150,"total_eur":750},{"travellers":6,"per_person_eur":150,"total_eur":900}]
+Guide: https://www.exploresumatraescape.com/guides/bl-03d.pdf
+
+# 4 Days 3 Nights Jungle Trekking (BL-04D)
+https://www.exploresumatraescape.com/tours/bl-04d
+
+Day 1 - Enter the Wild Rainforest
+- 09:00 - Meet your local jungle guide in Bukit Lawang.
+- 09:30 - Start trekking into Gunung Leuser National Park.
+- Explore the tropical rainforest and discover its unique wildlife.
+- Look for wild Sumatran orangutans, Thomas leaf monkeys, macaques and tropical birds.
+- Stop for lunch in the jungle.
+- Continue exploring the rainforest.
+- Arrive at the first campsite near the river.
+- Enjoy dinner and your first night camping in the jungle.
+Day 2 - Deeper Into the Jungle
+- Wake up surrounded by the sounds of nature.
+- Enjoy breakfast at the campsite.
+- Continue trekking deeper into the rainforest.
+- Search for wild orangutans and other wildlife.
+- Discover giant trees, tropical plants and beautiful forest landscapes.
+- Stop for lunch and relaxation.
+- Continue to the second camping location.
+- Enjoy dinner and spend another night in the rainforest.
+Day 3 - Wildlife Exploration and River Adventure
+- Enjoy breakfast in the jungle.
+- Explore the rainforest with your local guide.
+- Look for orangutans, gibbons, monkeys and tropical birds.
+- Learn about the rainforest ecosystem and local wildlife.
+- Enjoy lunch beside a natural river.
+- Continue exploring the forest.
+- Return to the riverside campsite.
+- Enjoy dinner and your final night in the jungle.
+Day 4 - Return to Bukit Lawang
+- Enjoy breakfast surrounded by nature.
+- Take a final short walk through the rainforest.
+- Prepare for the return journey.
+- Experience traditional jungle tubing down the river, depending on river conditions.
+- Arrive back in Bukit Lawang around midday or afternoon.
+
+Included: Experienced local English-speaking jungle guide; National park entrance fees; 3 nights jungle camping; All meals during trekking; Drinking water; Camping equipment; Traditional river tubing on the return journey; Local trekking assistance
+Excluded: Hotel accommodation before and after trekking; Transport to and from Bukit Lawang; Personal expenses; Tips for guides
+Packing: Comfortable trekking shoes; Lightweight clothes; Extra clothes; Small backpack; Insect repellent; Sunscreen; Personal toiletries; Camera or phone; Reusable water bottle
+Important: Return river tubing depends on river conditions.; Wildlife sightings cannot be guaranteed. Observe animals from a safe distance without feeding, touching, chasing or disturbing them.
+Group rates EUR: [{"travellers":2,"per_person_eur":250,"total_eur":500},{"travellers":3,"per_person_eur":250,"total_eur":750},{"travellers":4,"per_person_eur":250,"total_eur":1000},{"travellers":5,"per_person_eur":250,"total_eur":1250},{"travellers":6,"per_person_eur":250,"total_eur":1500},{"travellers":7,"per_person_eur":250,"total_eur":1750},{"travellers":8,"per_person_eur":250,"total_eur":2000}]
+Guide: https://www.exploresumatraescape.com/guides/bl-04d.pdf
+
+# 5 Days 4 Nights Jungle Trekking (BL-05D)
+https://www.exploresumatraescape.com/tours/bl-05d
+
+Day 1 - Into the Wild Rainforest
+- 09:00 - Meet your local English-speaking jungle guide in Bukit Lawang.
+- 09:30 - Begin your jungle trekking adventure.
+- Explore the tropical rainforest and learn about its ecosystem.
+- Search for wild Sumatran orangutans, Thomas leaf monkeys, macaques and hornbills.
+- Enjoy lunch surrounded by nature.
+- Continue trekking deeper into the forest.
+- Arrive at your first jungle campsite near the river.
+- Enjoy dinner and your first night in the rainforest.
+Day 2 - Exploring Deeper Into the Jungle
+- Wake up to the sounds of the rainforest.
+- Enjoy breakfast at the campsite.
+- Continue exploring deeper into Gunung Leuser National Park.
+- Look for orangutans, gibbons and other wildlife.
+- Discover giant tropical trees and unique rainforest plants.
+- Enjoy lunch and a relaxing break.
+- Continue to another camping location.
+- Enjoy dinner and your second night camping in the jungle.
+Day 3 - Wildlife Discovery and Rainforest Adventure
+- Enjoy breakfast in the jungle.
+- Start your morning wildlife exploration.
+- Observe wild orangutans and other animals from a respectful distance.
+- Explore different forest landscapes with your guide.
+- Learn about wildlife conservation and local jungle traditions.
+- Enjoy lunch beside a natural river.
+- Continue trekking and exploring.
+- Arrive at the next campsite.
+- Enjoy dinner and another peaceful night in the forest.
+Day 4 - Hidden Jungle and River Experience
+- Wake up surrounded by beautiful rainforest scenery.
+- Enjoy breakfast at the campsite.
+- Explore new sections of the rainforest.
+- Search for more wildlife and tropical birds.
+- Discover beautiful natural streams and jungle landscapes.
+- Enjoy lunch and relaxation.
+- Begin trekking towards the final riverside campsite.
+- Enjoy your last dinner and night in the jungle.
+Day 5 - Return to Bukit Lawang
+- Enjoy breakfast in the rainforest.
+- Take a final short walk through the jungle.
+- Prepare for the journey back.
+- Experience traditional jungle tubing down the river, depending on river conditions.
+- Arrive back in Bukit Lawang around midday or afternoon.
+
+Included: Experienced local English-speaking jungle guide; National park entrance fees; 4 nights jungle camping; All meals during trekking; Drinking water; Jungle camping equipment; Traditional river tubing on the return journey; Local trekking assistance
+Excluded: Hotel accommodation before and after trekking; Transport to and from Bukit Lawang; Personal expenses; Tips for guides
+Packing: Comfortable trekking shoes; Lightweight clothes; Extra clothes; Small backpack; Insect repellent; Sunscreen; Personal toiletries; Camera or phone; Reusable water bottle
+Important: Accommodation is jungle camping.; Return river tubing depends on river conditions.; Wildlife sightings cannot be guaranteed. Observe animals from a safe distance without feeding, touching, chasing or disturbing them.
+Group rates EUR: [{"travellers":2,"per_person_eur":320,"total_eur":640},{"travellers":3,"per_person_eur":320,"total_eur":960},{"travellers":4,"per_person_eur":320,"total_eur":1280},{"travellers":5,"per_person_eur":320,"total_eur":1600},{"travellers":6,"per_person_eur":320,"total_eur":1920},{"travellers":7,"per_person_eur":320,"total_eur":2240},{"travellers":8,"per_person_eur":320,"total_eur":2560}]
+Guide: https://www.exploresumatraescape.com/guides/bl-05d.pdf

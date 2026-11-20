@@ -1,0 +1,273 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Explore Sumatra Escape Agent API",
+    "version": "1.0.0",
+    "description": "Public guest actions. No OAuth, private records, automatic payment or Session identity. Checkout requires explicit customer consent; payment is in Stripe test mode."
+  },
+  "servers": [
+    {
+      "url": "https://www.exploresumatraescape.com"
+    }
+  ],
+  "paths": {
+    "/agent-api": {
+      "post": {
+        "operationId": "tourPlanningAction",
+        "description": "Run a public action. Poppy clients send Poppy-Version: 1.0; Poppy-Session is accepted but unused because no Session claims or state are used.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "oneOf": [
+                  {
+                    "type": "object",
+                    "required": [
+                      "action",
+                      "arguments"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                      "action": {
+                        "const": "search_tours"
+                      },
+                      "arguments": {
+                        "$schema": "https://json-schema.org/draft/2020-12/schema",
+                        "type": "object",
+                        "properties": {
+                          "query": {
+                            "default": "",
+                            "type": "string",
+                            "maxLength": 200
+                          },
+                          "days": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 5
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "required": [
+                      "action",
+                      "arguments"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                      "action": {
+                        "const": "get_tour"
+                      },
+                      "arguments": {
+                        "$schema": "https://json-schema.org/draft/2020-12/schema",
+                        "type": "object",
+                        "properties": {
+                          "tour": {
+                            "type": "string",
+                            "enum": [
+                              "BL-01D",
+                              "BL-02D",
+                              "BL-03D",
+                              "BL-04D",
+                              "BL-05D"
+                            ]
+                          }
+                        },
+                        "required": [
+                          "tour"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "required": [
+                      "action",
+                      "arguments"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                      "action": {
+                        "const": "quote_tour"
+                      },
+                      "arguments": {
+                        "$schema": "https://json-schema.org/draft/2020-12/schema",
+                        "type": "object",
+                        "properties": {
+                          "tour": {
+                            "type": "string",
+                            "enum": [
+                              "BL-01D",
+                              "BL-02D",
+                              "BL-03D",
+                              "BL-04D",
+                              "BL-05D"
+                            ]
+                          },
+                          "travellers": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 8
+                          }
+                        },
+                        "required": [
+                          "tour",
+                          "travellers"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "required": [
+                      "action",
+                      "arguments"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                      "action": {
+                        "const": "search_articles"
+                      },
+                      "arguments": {
+                        "$schema": "https://json-schema.org/draft/2020-12/schema",
+                        "type": "object",
+                        "properties": {
+                          "query": {
+                            "default": "",
+                            "type": "string",
+                            "maxLength": 200
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "required": [
+                      "action",
+                      "arguments"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                      "action": {
+                        "const": "get_whatsapp_link"
+                      },
+                      "arguments": {
+                        "$schema": "https://json-schema.org/draft/2020-12/schema",
+                        "type": "object",
+                        "properties": {
+                          "message": {
+                            "default": "Hello Explore Sumatra Escape! I would like to plan a tour.",
+                            "type": "string",
+                            "maxLength": 1500
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    }
+                  },
+                  {
+                    "type": "object",
+                    "required": [
+                      "action",
+                      "arguments"
+                    ],
+                    "additionalProperties": false,
+                    "properties": {
+                      "action": {
+                        "const": "create_checkout_link"
+                      },
+                      "arguments": {
+                        "$schema": "https://json-schema.org/draft/2020-12/schema",
+                        "type": "object",
+                        "properties": {
+                          "request_id": {
+                            "type": "string",
+                            "format": "uuid",
+                            "pattern": "^([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-8][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|00000000-0000-0000-0000-000000000000|ffffffff-ffff-ffff-ffff-ffffffffffff)$"
+                          },
+                          "tour": {
+                            "type": "string",
+                            "enum": [
+                              "BL-01D",
+                              "BL-02D",
+                              "BL-03D",
+                              "BL-04D",
+                              "BL-05D"
+                            ]
+                          },
+                          "departure": {
+                            "type": "string",
+                            "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+                          },
+                          "travellers": {
+                            "type": "integer",
+                            "minimum": 1,
+                            "maximum": 8
+                          },
+                          "name": {
+                            "type": "string",
+                            "minLength": 1,
+                            "maxLength": 100
+                          },
+                          "email": {
+                            "type": "string",
+                            "maxLength": 254,
+                            "format": "email",
+                            "pattern": "^(?:[A-Za-z0-9_'+\\-]+\\.)*[A-Za-z0-9_'+\\-]*[A-Za-z0-9_+-]@(?:[A-Za-z0-9][A-Za-z0-9\\-]*\\.)+[A-Za-z]{2,}$"
+                          },
+                          "customer_consent": {
+                            "type": "boolean",
+                            "const": true
+                          }
+                        },
+                        "required": [
+                          "request_id",
+                          "tour",
+                          "departure",
+                          "travellers",
+                          "name",
+                          "email",
+                          "customer_consent"
+                        ],
+                        "additionalProperties": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Action result",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid arguments or unsupported protocol version"
+          },
+          "403": {
+            "description": "Invalid browser origin"
+          },
+          "429": {
+            "description": "Checkout rate limit; retry after a minute"
+          }
+        }
+      }
+    }
+  }
+}

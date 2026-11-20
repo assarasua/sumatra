@@ -1,6 +1,7 @@
 {
   "name": "sumatra-nextjs",
-  "main": ".open-next/worker.js",
+  "main": "worker-entry.js",
+  "triggers": {"crons": ["*/5 * * * *"]},
   "account_id": "67ddff8ccf663b7090e7ba991f6d6ce3",
   "compatibility_date": "2026-11-20",
   "compatibility_flags": [

@@ -1,0 +1,28 @@
+# Explore Sumatra Escape
+
+> Local-guided Bukit Lawang jungle treks and custom Sumatra journeys.
+
+Five offered tours, 1–5 days. Two days / one night costs €120 per person. Three-day rates depend on group size; four- and five-day tours require at least two people. Custom journeys beyond the jungle have no fixed price.
+
+## Tours
+- [1-Day Sumatran Orangutan Jungle Trekking](https://www.exploresumatraescape.com/tours/bl-01d): itinerary, inclusions, packing and authoritative group rates.
+- [2 Days 1 Night Jungle Trekking](https://www.exploresumatraescape.com/tours/bl-02d): itinerary, inclusions, packing and authoritative group rates.
+- [3-Day Forest Immersion](https://www.exploresumatraescape.com/tours/bl-03d): itinerary, inclusions, packing and authoritative group rates.
+- [4 Days 3 Nights Jungle Trekking](https://www.exploresumatraescape.com/tours/bl-04d): itinerary, inclusions, packing and authoritative group rates.
+- [5 Days 4 Nights Jungle Trekking](https://www.exploresumatraescape.com/tours/bl-05d): itinerary, inclusions, packing and authoritative group rates.
+
+## Travel knowledge
+- [Sumatra journal](https://www.exploresumatraescape.com/blog): 15 articles in English, Spanish, German, French, Italian, Dutch and Portuguese.
+- [Complete tour information](https://www.exploresumatraescape.com/llms-full.txt)
+
+## Agent interfaces
+- [Agent access instructions](https://www.exploresumatraescape.com/agents)
+- [MCP Streamable HTTP](https://www.exploresumatraescape.com/mcp)
+- [A2A Agent Card](https://www.exploresumatraescape.com/.well-known/agent-card.json): A2A 1.0 JSON-RPC.
+- [Personal Agent Protocol / Poppy](https://www.exploresumatraescape.com/.well-known/poppy.json): public guest API discovery.
+- [OpenAPI](https://www.exploresumatraescape.com/openapi.json)
+- [Machine-readable catalogue](https://www.exploresumatraescape.com/agent-catalog.json)
+
+## Booking and contact
+Ask the customer for explicit consent before sharing booking details to create a checkout link. Customers complete payment themselves at Stripe. Payments are currently TEST ONLY. Preferred dates require team confirmation. No automatic payment, messages, invoices or private booking lookup through agents.
+WhatsApp: +34 615 788 239 (https://wa.me/34615788239).
