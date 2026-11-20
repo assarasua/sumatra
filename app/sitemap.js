@@ -1,0 +1,1 @@
+import articles from '../lib/articles.json';export default function sitemap(){return ['','/blog',...articles.map(a=>'/blog/'+a.slug)].map(path=>({url:'https://www.exploresumatraescape.com'+path+'/',lastModified:'2026-11-20'}));}

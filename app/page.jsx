@@ -1,0 +1,1 @@
+import Script from 'next/script';import html from '../lib/home.js';export const metadata={alternates:{canonical:'/'}};export default function Home(){return <><div dangerouslySetInnerHTML={{__html:html}}/><Script src="/site.7f68d8f5c2fc.js" strategy="afterInteractive"/></>;}

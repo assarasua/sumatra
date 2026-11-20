@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="wrap section"><h1>This trail ends here.</h1><p style={{marginTop:24}}>We couldn’t find that page.</p><a className="button" href="/" style={{marginTop:24}}>Return to the website ↗</a></main>}

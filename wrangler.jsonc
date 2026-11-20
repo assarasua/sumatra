@@ -1,0 +1,34 @@
+{
+  "name": "sumatra-nextjs",
+  "main": ".open-next/worker.js",
+  "account_id": "67ddff8ccf663b7090e7ba991f6d6ce3",
+  "compatibility_date": "2026-11-20",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS"
+  },
+  "observability": {
+    "enabled": true
+  },
+  "vars": {
+    "STRIPE_TAX_ENABLED": "false"
+  },
+  "workers_dev": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "sumatra-bookings",
+      "database_id": "b9fb5673-b67e-4f1a-bb08-50135780c27f",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "routes": [
+    {
+      "pattern": "www.exploresumatraescape.com",
+      "custom_domain": true
+    }
+  ]
+}

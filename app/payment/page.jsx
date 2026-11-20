@@ -1,0 +1,1 @@
+import Script from 'next/script';import html from '../../lib/payment-markup.js';export const metadata={title:'Your payment | Explore Sumatra Escape',robots:{index:false,follow:false}};export default function Payment(){return <><div className="payment-page" dangerouslySetInnerHTML={{__html:html}}/><Script src="/payment.js"/></>;}
